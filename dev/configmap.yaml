@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello
+  namespace: demo-project
+data:
+  web.color: DarkSlateGray #DarkGoldenRod, DarkCyan, DarkSlateGray, #IndianRed, etc.
