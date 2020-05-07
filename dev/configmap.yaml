@@ -5,3 +5,6 @@ metadata:
   namespace: demo-project
 data:
   web.color: DarkSlateGray #DarkGoldenRod, DarkCyan, DarkSlateGray, #IndianRed, etc.
+  wavefront.application.name: sof
+  wavefront.application.service: hello
+  management.metrics.export.wavefront.uri: https://surf.wavefront.com

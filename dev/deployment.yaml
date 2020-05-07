@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
+  namespace: demo-project
   labels:
     app: hello
 spec:
@@ -16,6 +17,9 @@ spec:
         - name: hello
           image: harbor.sysco-pcf.sysco.corby.cc/sof/hello:latest
           imagePullPolicy: Always
+          envFrom:
+            - configMapRef:
+                name: hello
       restartPolicy: Always
   selector:
     matchLabels:
