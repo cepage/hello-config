@@ -20,6 +20,8 @@ spec:
           envFrom:
             - configMapRef:
                 name: hello
+            - secretRef:
+                name: hello
       restartPolicy: Always
   selector:
     matchLabels:
