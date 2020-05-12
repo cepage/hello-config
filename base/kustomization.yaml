@@ -8,6 +8,3 @@ configMapGenerator:
   - name: hello
     literals:
       - web.color=DarkSlateGray
-generatorOptions:
-  annotations:
-    argocd.argoproj.io/compare-options: IgnoreExtraneous
