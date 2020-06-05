@@ -4,6 +4,6 @@ metadata:
   name: hello
 spec:
   virtualhost:
-    fqdn: hello-staging.contour.sysco-pcf.sysco.corby.cc
+    fqdn: hello-sharad.contour.sysco-pcf.sysco.corby.cc
 
 
