@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: hello
 data:
-  web.color: DarkCyan
+  web.color: Green
