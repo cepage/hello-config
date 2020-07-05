@@ -5,5 +5,9 @@ metadata:
   labels:
     app: hello
 spec:
-  replicas: 3
+  replicas: 2
+  template:
+    spec:
+      containers:
+        - image: harbor-lab.pks.corby.cc/development/boot-demo@sha256:7799cb0207cd554e8eca6dc42deeb37f4cd192c3deb2b8c3f9f6221f87f6f252
 
