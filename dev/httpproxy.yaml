@@ -4,6 +4,6 @@ metadata:
   name: hello
 spec:
   virtualhost:
-    fqdn: hello-dev.contour.sysco-pcf.sysco.corby.cc
+    fqdn: hello-dev.contour.sof-pilot.net
 
 
