@@ -5,6 +5,8 @@ metadata:
 spec:
   virtualhost:
     fqdn: default.example.com
+    tls:
+      secretName: projectcontour/contour-tls
   routes:
     - services:
         - name: hello
