@@ -9,6 +9,6 @@ spec:
   template:
     spec:
       containers:
-        - name: world
-          image: harbor.sysco-pcf.sysco.corby.cc/sof/hello:latest
+        - name: hello
+          image: harbor.sof-pilot.net/development/hello:latest
 

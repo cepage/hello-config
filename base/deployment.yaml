@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: harbor.sysco-pcf.sysco.corby.cc/sof/hello:latest
+          image: harbor.sof-pilot.net/development/hello:latest
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
