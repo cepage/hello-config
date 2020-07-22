@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: harbor.sof-pilot.net/development/hello:latest
+          image: hello:latest
           imagePullPolicy: Always
           envFrom:
             - configMapRef:

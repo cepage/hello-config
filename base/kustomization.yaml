@@ -8,3 +8,6 @@ configMapGenerator:
   - name: hello
     literals:
       - web.color=DarkSlateGray
+images:
+  - name: hello
+    newName: harbor-lab.pks.corby.cc/development/hello
