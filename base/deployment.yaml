@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: hello:latest
+          image: harbor-lab.pks.corby.cc/development/hello:latest
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
