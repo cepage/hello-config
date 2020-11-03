@@ -4,6 +4,6 @@ metadata:
   name: hello
 spec:
   virtualhost:
-    fqdn: hello-dev.services.tkg.corby.cc
+    fqdn: anand.services.tkg.corby.cc
 
 
